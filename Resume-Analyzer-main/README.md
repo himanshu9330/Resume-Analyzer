@@ -16,17 +16,6 @@
 - Can be deployed on the web using services like PythonAnywhere
 
 ---
-
-## APP Interface
-
-![App Interface](https://github.com/SeekAI-786/Resume-Analyzer/blob/main/r2.png)
-
----
-
-![App Interface](https://github.com/SeekAI-786/Resume-Analyzer/blob/main/r1.png)
-
-
----
 ## How It Works
 
 1. Users input a job description and upload up to 10 resumes.
@@ -50,7 +39,6 @@
 ### Installation
 
 ```bash
-git clone https://github.com/your-username/resume-analyzer.git
 cd resume-analyzer
 pip install -r requirements.txt
 ```
@@ -62,17 +50,6 @@ python main.py
 ```
 
 Resume files will be stored in the `uploads/` directory. You can change this path in the `main.py` file as needed.
-
----
-
-## Deployment
-
-This app can be deployed to web platforms such as:
-
-- PythonAnywhere
-- Render
-- Railway
-- Heroku (with appropriate setup like a `Procfile`)
 
 ---
 
